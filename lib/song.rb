@@ -38,5 +38,5 @@ class Song
 end
 
 Song.create
-Song.new_by_name("A Forest")
+Song.create_by_name("A Forest")
 binding.pry
