@@ -41,7 +41,8 @@ class Song
   end
 
   def self.alphabetical
-    
+    self.all.collect do |song_object|
+    end
   end
 end
 
