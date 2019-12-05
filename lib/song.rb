@@ -53,6 +53,10 @@ class Song
     s.name = song_data[1].chomp(".mp3")
     s
   end
+
+  def create_from_filename
+
+  end
 end
 
 Song.create_by_name("Thriller")
