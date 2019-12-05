@@ -45,6 +45,10 @@ class Song
       song_obj.name
     end
   end
+
+  def self.new_from_filnename
+
+  end
 end
 
 Song.create_by_name("Thriller")
