@@ -10,6 +10,7 @@ class Song
 
   def save
     self.class.all << self
+    #Returns array of all Song instances
   end
 
   def self.create
