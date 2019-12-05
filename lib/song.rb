@@ -59,7 +59,7 @@ class Song
   end
 
   def self.delete_all
-    all.clear
+    self.all.clear
   end
 end
 
