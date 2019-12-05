@@ -42,6 +42,7 @@ class Song
 
   def self.alphabetical
     self.all.collect do |song_object|
+
     end
   end
 end
@@ -50,4 +51,4 @@ Song.create
 Song.create_by_name("Thriller")
 Song.create_by_name("Shape of My Heart")
 
-binding.pry
+Song.alphabetical
