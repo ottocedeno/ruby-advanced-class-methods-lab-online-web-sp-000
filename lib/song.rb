@@ -36,6 +36,12 @@ class Song
   end
 
   def self.find_or_create_by_name(song_name)
+    self.all #=> array of all objects
+    self.all each song.name => iterate over each song name
+    #detect if the song exisits
+    #if true, return song object,
+    #if false, create song and return object
+    self.create_by_name(song_name) unless self.find_by_name(song_name)
 
   end
 end
