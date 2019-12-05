@@ -36,11 +36,7 @@ class Song
   end
 
   def self.find_or_create_by_name(song_name)
-    #detect if the song exisits
-    #if true, return song object,
-    #if false, create song and return object
-    self.create_by_name(song_name) unless self.find_by_name(song_name)
-    self.find_by_name(song_name)
+    self.create_by_name(song_name) unless find_by_name(song_name)
   end
 end
 
