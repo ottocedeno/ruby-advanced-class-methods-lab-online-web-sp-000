@@ -47,7 +47,6 @@ class Song
   end
 end
 
-Song.create
 Song.create_by_name("Thriller")
 Song.create_by_name("Shape of My Heart")
 
