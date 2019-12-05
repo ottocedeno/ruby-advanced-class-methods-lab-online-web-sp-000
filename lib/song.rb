@@ -51,6 +51,7 @@ class Song
     binding.pry
     s = Song.new
     s.artist_name = song_data[0]
+    s.name = song_data[1].chomp(".mp3")
   end
 end
 
