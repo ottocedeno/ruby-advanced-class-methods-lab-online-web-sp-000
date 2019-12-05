@@ -50,6 +50,7 @@ class Song
     song_data = filename.split(' - ')
     binding.pry
     s = Song.new
+    s.artist_name = song_data[0]
   end
 end
 
