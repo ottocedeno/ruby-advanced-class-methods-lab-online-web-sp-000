@@ -16,7 +16,7 @@ class Song
   def self.create
     s = self.new
     s.save
-    s #Returns new instance of Song 
+    s #Returns new instance of Song
   end
 
   def self.new_by_name(song_name)
