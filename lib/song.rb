@@ -55,3 +55,4 @@ end
 
 Song.create_by_name("Thriller")
 Song.create_by_name("Shape of My Heart")
+Song.new_from_filename("Depeche Mode - It's No Good.mp3")
