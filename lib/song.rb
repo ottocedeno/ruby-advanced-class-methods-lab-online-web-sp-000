@@ -20,4 +20,5 @@ class Song
 
 end
 
+Song.create
 binding.pry
