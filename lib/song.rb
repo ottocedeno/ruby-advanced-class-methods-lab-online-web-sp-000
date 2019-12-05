@@ -54,7 +54,7 @@ class Song
     s
   end
 
-  def create_from_filename
+  def create_from_filename(filename)
 
   end
 end
