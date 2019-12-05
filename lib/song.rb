@@ -42,7 +42,7 @@ class Song
 
   def self.alphabetical
     self.all.collect do |song_object|
-
+      binding.pry
     end
   end
 end
